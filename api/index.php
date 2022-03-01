@@ -2,9 +2,9 @@
 
 function connection($request){
 
-    $servername = "sql.qshark.ml";
-    $username = "quaye";
-    $password = "quaye8282";
+    $servername = "";
+    $username = "";
+    $password = "";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=staff_profile", $username, $password);
